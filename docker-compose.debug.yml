@@ -1,0 +1,11 @@
+
+version: '3.4'
+
+services:
+  jobconsumer:
+    image: jobconsumer
+    build:
+      context: .
+      dockerfile: JobConsumer/Dockerfile
+    volumes:
+      - ~/.vsdbg:/remote_debugger:rw

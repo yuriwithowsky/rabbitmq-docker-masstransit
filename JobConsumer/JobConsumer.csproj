@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-JobConsumer-23828F22-8215-4747-932C-9B71DFC0F21C</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0"/>
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.1.7"/>
+    <PackageReference Include="MassTransit" Version="7.1.7"/>
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.1.7"/>
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.1.7"/>
+  </ItemGroup>
+</Project>
